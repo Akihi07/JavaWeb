@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>书城首页</title>
+	<meta charset="UTF-8">
+	<title>书城首页</title>
 <%--<link type="text/css" rel="stylesheet" href="static/css/style.css" >--%>
 	<%--静态包含 head的内容--%>
 	<%@ include file="/pages/common/head.jsp"%>
@@ -174,11 +174,8 @@
 		</div>
 	
 	</div>
-	
-	<div id="bottom">
-		<span>
-			尚硅谷书城.Copyright &copy;2015
-		</span>
-	</div>
+
+	<%@ include file="/pages/common/foot.jsp"%>
+
 </body>
 </html>

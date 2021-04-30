@@ -10,35 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30004568-2f51-4bec-beba-87448860e2d1" name="Default Changelist" comment="Change all Files to JSP">
-      <change afterPath="$PROJECT_DIR$/book/web/pages/common/foot.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/web/pages/common/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/web/pages/common/login_sucess_menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/web/pages/common/manager_menu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_jsp/web/test/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/08_jsp/web/test/test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/cart/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/cart/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/cart/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/order_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/order_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/order/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/order/order.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/user/login_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/login_success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/regist_success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/08_jsp_war_exploded/test/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/08_jsp_war_exploded/test/test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/cart/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/cart/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/cart/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/order_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/order_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/order/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/order/order.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/login_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/login_success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist_success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/head.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +30,12 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="gitee/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +56,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1qm4EWPhOFFUXUuGcobRUvgDf8t" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -97,7 +81,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -473,7 +457,95 @@
         </option>
       </method>
     </configuration>
+    <configuration name="08_jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.50" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="08_jsp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/08_jsp" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="249f4ea1-cb60-4512-b6b8-46c8517e0745" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51353" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="08_jsp:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="book" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.50" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="16bf23d4-93e0-4ffc-bfd6-cb13575177b0" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -568,6 +640,7 @@
       <item itemvalue="JUnit.UserDaoTest.queryUserByUserName" />
       <item itemvalue="JUnit.UserDaoTest.savaUser" />
       <item itemvalue="JUnit.UserServiceTest.registUser" />
+      <item itemvalue="Tomcat Server.08_jsp" />
       <item itemvalue="Tomcat Server.book" />
       <item itemvalue="Tomcat Server.05_web" />
       <item itemvalue="Tomcat Server.06_servlet" />
@@ -616,7 +689,7 @@
       <workItem from="1619763027917" duration="468000" />
       <workItem from="1619763524361" duration="943000" />
       <workItem from="1619764511760" duration="1654000" />
-      <workItem from="1619766223297" duration="2556000" />
+      <workItem from="1619766223297" duration="9061000" />
     </task>
     <task id="LOCAL-00001" summary="All Files is Ok">
       <created>1619769277335</created>
@@ -625,7 +698,28 @@
       <option name="project" value="LOCAL" />
       <updated>1619769277335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All Files is Ok">
+      <created>1619769546834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619769546834</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Change all Files to JSP">
+      <created>1619769979229</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619769979229</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Change all Files to JSP">
+      <created>1619770053630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619770053630</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,7 +730,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -648,7 +754,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="All Files is Ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Files is Ok" />
+    <MESSAGE value="Change all Files to JSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change all Files to JSP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -663,8 +770,28 @@
           <line>20</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/book/web/index.jsp</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/book/web/pages/common/head.jsp</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/book/web/pages/common/head.jsp</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="request" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

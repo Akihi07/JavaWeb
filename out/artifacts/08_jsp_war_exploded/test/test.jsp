@@ -9,6 +9,18 @@
 <html>
 <head>
     <title>Title</title>
+    <% for (int i = 1; i <= 9; i++) { %>
+    <tr>
+        <% for (int j = 1; j <= i ; j++) { %>
+        <td>
+            <%= j + "x" + i  + "=" + (i*j)%>
+        </td>
+        <% } %>
+    </tr>
+    <%}%>
+    <%
+        System.out.println("test");
+    %>
 </head>
 <body>
 <%--输出九九乘法口诀表--%>
