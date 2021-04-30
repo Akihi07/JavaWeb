@@ -33,7 +33,7 @@ public class RegistServlet extends HttpServlet {
                 /*3.检查用户名是否可用*/
                 /*返回True 用户名已存在 不可用*/
                 System.out.println("用户名[" + username + "]已被占用！");
-                req.getRequestDispatcher("/pages/user/regist.html").forward(req,resp);
+                req.getRequestDispatcher("/pages/user/regist.jsp").forward(req,resp);
 
             }else
             {
@@ -42,7 +42,7 @@ public class RegistServlet extends HttpServlet {
                 userService.registUser(new User(null,username,password,email));
 
                 /*返回注册成功的地址*/
-                req.getRequestDispatcher("/pages/user/regist_success.html").forward(req,resp);
+                req.getRequestDispatcher("/pages/user/regist_success.jsp").forward(req,resp);
             }
 
         }
@@ -50,7 +50,7 @@ public class RegistServlet extends HttpServlet {
 
             /*验证码不正确，返回注册界面*/
             System.out.println("验证码["+ code + "]错误" );
-            req.getRequestDispatcher("/pages/user/regist.html").forward(req,resp);
+            req.getRequestDispatcher("/pages/user/regist.jsp").forward(req,resp);
 
         }
 
