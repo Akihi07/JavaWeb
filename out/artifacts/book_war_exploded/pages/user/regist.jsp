@@ -1,14 +1,14 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<title>尚硅谷会员注册页面</title>
 
-		<!--写base标签，永远固定相对路径-->
-		<base href="http://localhost:8080/book/">
+		<%--静态包含 head的内容--%>
+		<%@ include file="/pages/common/head.jsp"%>
 
-		<link type="text/css" rel="stylesheet" href="static/css/style.css" >
-		<script type="text/javascript" src="static/script/jquery-1.7.2.js"></script>
+
 		<script type="text/javascript">
 			// 页面加载完成之后
 			$(function () {
@@ -148,10 +148,8 @@
 					</div>
 				</div>
 			</div>
-		<div id="bottom">
-			<span>
-				尚硅谷书城.Copyright &copy;2015
-			</span>
-		</div>
+
+		<%@ include file="/pages/common/foot.jsp"%>
+
 	</body>
 </html>
