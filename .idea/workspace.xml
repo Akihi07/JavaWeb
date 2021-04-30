@@ -9,7 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30004568-2f51-4bec-beba-87448860e2d1" name="Default Changelist" comment="All Files is Ok" />
+    <list default="true" id="30004568-2f51-4bec-beba-87448860e2d1" name="Default Changelist" comment="All Files is Ok">
+      <change beforePath="$PROJECT_DIR$/book/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/cart/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/order_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/order_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/order/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/order/order.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/user/login_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/login_success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/regist_success.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +34,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -44,7 +57,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1qm4EWPhOFFUXUuGcobRUvgDf8t" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -586,7 +601,7 @@
       <workItem from="1619763027917" duration="468000" />
       <workItem from="1619763524361" duration="943000" />
       <workItem from="1619764511760" duration="1654000" />
-      <workItem from="1619766223297" duration="2556000" />
+      <workItem from="1619766223297" duration="3089000" />
     </task>
     <task id="LOCAL-00001" summary="All Files is Ok">
       <created>1619769277335</created>
@@ -595,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619769277335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All Files is Ok">
+      <created>1619769546834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619769546834</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
