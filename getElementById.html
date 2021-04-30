@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function onclickFun(){
+            var usernameObj = document.getElementById("userName");
+            var pattern = /^\w{5,12}$/;
+            var usernameText = usernameObj.value;
+            if(pattern.test(usernameText)){
+                alert("输入姓名合法");
+            }
+            else {
+                alert("输入姓名不合法");
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <table>
+        <tr align = "center">
+            <td>
+                姓名：
+            </td>
+            <td>
+                <label for="userName"><input type="text" id="userName" value="Lily_Li" size="20"/></label>
+            </td>
+            <td>
+                <button onclick="onclickFun()">Submit</button>
+            </td>
+        </tr>
+
+    </table>
+
+
+</body>
+</html>

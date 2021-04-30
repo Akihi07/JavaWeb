@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="05_web">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Install/commons-beanutils-1.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Install/commons-dbutils-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Install/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Install/druid-1.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Install/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Install/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Install/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Install/kaptcha-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Install/mysql-connector-java-5.1.7-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Install/taglibs-standard-impl-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Install/taglibs-standard-spec-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Install/servlet-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        <!--    字符串中是否包含了字符e    -->
+        // var pattern  =new RegExp("e")
+        // var pattern  = /e/
+        // var pattern  =/[abc]/
+        // var pattern  =/[a-z]/
+        /*
+        a+      匹配任何包含至少一个a的字符串
+        a*      匹配任何 包含 零个 或 多个 a的字符串
+        a?      匹配任何 包含 零个 或 一个 a的字符串
+        a{x}    匹配 包含 连续x个a的序列的字符串
+        a{x,y}  匹配 包含 最少连续x个，最多连续y个a的序列的字符串
+        a{x,}  匹配 包含 最少连续x个a的序列的字符串
+        a$      匹配字符串以a结尾
+        ^a      匹配字符串以a开头
+        */
+        var pattern  =/[abc]/;   //  /e/
+        alert(pattern.test("abecdf"));
+    </script>
+</head>
+<body>
+
+</body>
+</html>
