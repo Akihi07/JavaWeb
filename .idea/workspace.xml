@@ -9,52 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30004568-2f51-4bec-beba-87448860e2d1" name="Default Changelist" comment="book project">
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/pojo/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/test/BookDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/test/BookServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/test/UserServletTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/utils/WebUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/BaseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/BookServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/05_web2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/05_web3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/book_lib-DESKTOP-ITPHQA8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/book_lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/book_lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/book_lib2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/book_lib3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/service/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/web/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/web/RegistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/RegistServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/manager_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/web/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/web/RegistServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/manager_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/service/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/web/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/web/RegistServlet.class" beforeDir="false" />
-    </list>
+    <list default="true" id="30004568-2f51-4bec-beba-87448860e2d1" name="Default Changelist" comment="book project fifth stage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +73,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="sql.code.style.group" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -732,7 +687,7 @@
       <workItem from="1619766223297" duration="9061000" />
       <workItem from="1619869684360" duration="1581000" />
       <workItem from="1619920772134" duration="142000" />
-      <workItem from="1619921092585" duration="37738000" />
+      <workItem from="1619921092585" duration="38189000" />
     </task>
     <task id="LOCAL-00001" summary="All Files is Ok">
       <created>1619769277335</created>
@@ -769,7 +724,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619800402095</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="book project fifth stage">
+      <created>1619972160921</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619972160921</updated>
+    </task>
+    <task id="LOCAL-00007" summary="book project fifth stage">
+      <created>1619972206726</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619972206726</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -806,7 +775,8 @@
     <MESSAGE value="All Files is Ok" />
     <MESSAGE value="Change all Files to JSP" />
     <MESSAGE value="book project" />
-    <option name="LAST_COMMIT_MESSAGE" value="book project" />
+    <MESSAGE value="book project fifth stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="book project fifth stage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
