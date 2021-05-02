@@ -111,32 +111,38 @@
 						<div class="login_box">
 							<div class="tit">
 								<h1>注册尚硅谷会员</h1>
-								<span class="errorMsg"></span>
+								<span class="errorMsg">
+
+									<%--输出错误信息--%>
+									${msg}
+
+								</span>
 							</div>
 							<div class="form">
-								<form action="registServlet" method="post">
+								<form action="userServlet" method="post">
+									<input type="hidden" name="action" value="regist"/>
 									<label>用户名称：</label>
 									<input class="itxt" type="text" placeholder="请输入用户名"
-										   autocomplete="off" tabindex="1" name="username" id="username" />
+										   autocomplete="off" tabindex="1" name="username" id="username" value="${username}" />
 									<br />
 									<br />
 									<label>用户密码：</label>
 									<input class="itxt" type="password" placeholder="请输入密码"
-										   autocomplete="off" tabindex="1" name="password" id="password" />
+										   autocomplete="off" tabindex="1" name="password" id="password" value="${password}"/>
 									<br />
 									<br />
 									<label>确认密码：</label>
 									<input class="itxt" type="password" placeholder="确认密码"
-										   autocomplete="off" tabindex="1" name="repwd" id="repwd" />
+										   autocomplete="off" tabindex="1" name="repwd" id="repwd" value="${password}"/>
 									<br />
 									<br />
 									<label>电子邮件：</label>
 									<input class="itxt" type="text" placeholder="请输入邮箱地址"
-										   autocomplete="off" tabindex="1" name="email" id="email" />
+										   autocomplete="off" tabindex="1" name="email" id="email" value="${email}"/>
 									<br />
 									<br />
 									<label>验证码：</label>
-									<input class="itxt" type="text" name="code" style="width: 150px;" id="code"/>
+									<input class="itxt" type="text" name="code" style="width: 150px;" id="code" value="${code}"/>
 									<img alt="" src="static/img/code.bmp" style="float: right; margin-right: 40px">
 									<br />
 									<br />

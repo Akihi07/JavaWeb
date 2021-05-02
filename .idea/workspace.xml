@@ -9,14 +9,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30004568-2f51-4bec-beba-87448860e2d1" name="Default Changelist" comment="Change all Files to JSP">
+    <list default="true" id="30004568-2f51-4bec-beba-87448860e2d1" name="Default Changelist" comment="book project">
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/test/BookDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/test/BookServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/test/UserServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/utils/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/BookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/05_web2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/05_web3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/book_lib-DESKTOP-ITPHQA8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/book_lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/book_lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/book_lib2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/book_lib3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_jsp/web/test/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/08_jsp/web/test/test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/service/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/web/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/web/RegistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/RegistServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/web/pages/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/08_jsp_war_exploded/test/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/08_jsp_war_exploded/test/test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/manager_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/web/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/web/RegistServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/manager_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/service/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/web/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/web/RegistServlet.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +64,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,26 +113,29 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/book/web/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/book/web/WEB-INF/lib" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\11071\OneDrive\JavaWorkspace\JavaWeb\book\web\WEB-INF\lib" />
       <recent name="C:\Users\Hao He\OneDrive\JavaWorkspace\JavaWeb\book\web\WEB-INF\lib" />
       <recent name="C:\Users\Hao He\OneDrive\JavaWorkspace\JavaWeb\book\src" />
       <recent name="C:\Users\Hao He\OneDrive\JavaWorkspace\JavaWeb\book\web" />
       <recent name="C:\Users\Hao He\OneDrive\JavaWorkspace\JavaWeb\06_servlet\web" />
-      <recent name="D:\11071\OneDrive\JavaWorkspace\JavaWeb\06_servlet\src\JavaStudy\hehao\Servlet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\11071\OneDrive\JavaWorkspace\JavaWeb\06_servlet\web" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu.web" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.atguigu.test" />
@@ -113,7 +153,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcUtilsTest.testJdbcUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceImplTest.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -122,14 +162,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.JdbcUtilsTest" />
-      <option name="METHOD_NAME" value="testJdbcUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
+      <option name="METHOD_NAME" value="addBook" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.queryUserByUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceImplTest.deletBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -138,14 +178,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.UserDaoTest" />
-      <option name="METHOD_NAME" value="queryUserByUserName" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
+      <option name="METHOD_NAME" value="deletBookById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.queryUserByUserNameAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceImplTest.queryBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -154,14 +194,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.UserDaoTest" />
-      <option name="METHOD_NAME" value="queryUserByUserNameAndPassword" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
+      <option name="METHOD_NAME" value="queryBookById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.savaUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceImplTest.queryBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -170,14 +210,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.UserDaoTest" />
-      <option name="METHOD_NAME" value="savaUser" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
+      <option name="METHOD_NAME" value="queryBooks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.registUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceImplTest.updateBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -186,8 +226,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.UserServiceTest" />
-      <option name="METHOD_NAME" value="registUser" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
+      <option name="METHOD_NAME" value="updateBook" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -635,24 +675,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JdbcUtilsTest.testJdbcUtil" />
-      <item itemvalue="JUnit.UserDaoTest.queryUserByUserNameAndPassword" />
-      <item itemvalue="JUnit.UserDaoTest.queryUserByUserName" />
-      <item itemvalue="JUnit.UserDaoTest.savaUser" />
-      <item itemvalue="JUnit.UserServiceTest.registUser" />
       <item itemvalue="Tomcat Server.08_jsp" />
       <item itemvalue="Tomcat Server.book" />
       <item itemvalue="Tomcat Server.05_web" />
       <item itemvalue="Tomcat Server.06_servlet" />
       <item itemvalue="Tomcat Server.07_servlet" />
+      <item itemvalue="JUnit.BookServiceImplTest.addBook" />
+      <item itemvalue="JUnit.BookServiceImplTest.updateBook" />
+      <item itemvalue="JUnit.BookServiceImplTest.deletBookById" />
+      <item itemvalue="JUnit.BookServiceImplTest.queryBookById" />
+      <item itemvalue="JUnit.BookServiceImplTest.queryBooks" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceTest.registUser" />
-        <item itemvalue="JUnit.UserDaoTest.savaUser" />
-        <item itemvalue="JUnit.UserDaoTest.queryUserByUserName" />
-        <item itemvalue="JUnit.UserDaoTest.queryUserByUserNameAndPassword" />
-        <item itemvalue="JUnit.JdbcUtilsTest.testJdbcUtil" />
+        <item itemvalue="JUnit.BookServiceImplTest.updateBook" />
+        <item itemvalue="JUnit.BookServiceImplTest.queryBooks" />
+        <item itemvalue="JUnit.BookServiceImplTest.queryBookById" />
+        <item itemvalue="JUnit.BookServiceImplTest.deletBookById" />
+        <item itemvalue="JUnit.BookServiceImplTest.addBook" />
       </list>
     </recent_temporary>
   </component>
@@ -690,6 +730,9 @@
       <workItem from="1619763524361" duration="943000" />
       <workItem from="1619764511760" duration="1654000" />
       <workItem from="1619766223297" duration="9061000" />
+      <workItem from="1619869684360" duration="1581000" />
+      <workItem from="1619920772134" duration="142000" />
+      <workItem from="1619921092585" duration="37738000" />
     </task>
     <task id="LOCAL-00001" summary="All Files is Ok">
       <created>1619769277335</created>
@@ -719,7 +762,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619770053630</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="book project">
+      <created>1619800402095</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619800402095</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +805,8 @@
     </ignored-roots>
     <MESSAGE value="All Files is Ok" />
     <MESSAGE value="Change all Files to JSP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change all Files to JSP" />
+    <MESSAGE value="book project" />
+    <option name="LAST_COMMIT_MESSAGE" value="book project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -771,27 +822,17 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/book/web/index.jsp</url>
-          <line>8</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/book/src/com/atguigu/test/BookDaoTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/book/web/pages/common/head.jsp</url>
-          <line>10</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/book/web/pages/common/head.jsp</url>
-          <line>31</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/book/src/com/atguigu/web/BookServlet.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
-        <watch expression="request" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
