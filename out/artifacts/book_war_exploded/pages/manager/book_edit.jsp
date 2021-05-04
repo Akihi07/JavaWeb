@@ -36,8 +36,9 @@
 		
 		<div id="main">
 			<form action="manager/bookServlet" method="post">
-				<input type="hidden" name="action" value="${param.method}"/>
-<%--				<input type="hidden" name="id"  value="${book.id}"/>--%>
+				<input type="hidden" name="pageNo" value="${param.pageNo}"/>
+				<input type="hidden" name="action" value="${empty requestScope.book?"add":"update"}"/>
+				<input type="hidden" name="id"  value="${requestScope.book.id}"/>
 				<table>
 					<tr>
 						<td>名称</td>

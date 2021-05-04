@@ -38,4 +38,23 @@ public interface BookDao {
      * @return  返回 null 表示请求失败
      */
     public List<Book> queryBooks();
+
+    /**
+     * 查询数据库总条数
+     * @return 返回 null 表示失败
+     */
+    public Integer queryTotalItems();
+
+    /**
+     * 数据库分页查询
+     * @param pageBegin 分页起始
+     * @param pageSize  分页数目
+     * @return
+     */
+    public List<Book> queryPageItems(Integer pageBegin,Integer pageSize);
+
+
+    public Integer queryTotalItemsByPrice(int min, int max);
+
+    public List<Book> queryPageItemsByPrice(Integer pageBegin, int pageSize, int min, int max);
 }

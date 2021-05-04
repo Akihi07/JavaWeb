@@ -1,6 +1,7 @@
 package com.atguigu.web;
 
 import com.atguigu.pojo.Book;
+import com.atguigu.pojo.Page;
 import com.atguigu.service.BookService;
 import com.atguigu.service.impl.BookServiceImpl;
 import com.atguigu.utils.WebUtils;
@@ -18,6 +19,23 @@ public class BookServlet extends BaseServlet{
 
 
     /**
+     * 处理分页的业务
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
+    protected void page(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"),1);
+        int pageSize = WebUtils.parseInt(req.getParameter("pageSize"), Page.PAGE_SIZE);
+        Page<Book> page = bookService.page(pageNo,pageSize);
+        page.setUrl("manager/bookServlet?action=page");
+        req.setAttribute("page",page);
+        req.getRequestDispatcher("/pages/manager/book_manager.jsp").forward(req,resp);
+
+    }
+
+    /**
      * 往数据库里面添加数据
      * 添加数据后重定向至数据显示界面
      * @param req   请求对象
@@ -28,11 +46,12 @@ public class BookServlet extends BaseServlet{
     protected void add(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Book book = WebUtils.copyParamToBeam(req.getParameterMap(),new Book());
         bookService.addBook(book);
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 0);
         /*此处注意 ，如果采用请求转发的方式，按下快捷键F5时，浏览器会重复提交最后一次的请求，会造成多次添加*/
         //req.getRequestDispatcher("/manager/bookServlet?action=list").forward(req,resp);
-
+        pageNo++;
         /*因此需要采用重定向的方式*/
-        resp.sendRedirect(req.getContextPath()+"/manager/bookServlet?action=list");
+        resp.sendRedirect(req.getContextPath()+"/manager/bookServlet?action=page&pageNo="+pageNo);
     }
 
     /**
@@ -47,19 +66,20 @@ public class BookServlet extends BaseServlet{
     protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //获取需要删除图书的 id
         Integer id = WebUtils.parseInt(req.getParameter("id"),0);
-
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 0);
         //数据库中删除
         bookService.deletBookById(id);
 
         //重定向
-        resp.sendRedirect(req.getContextPath()+"/manager/bookServlet?action=list");
+        resp.sendRedirect(req.getContextPath()+"/manager/bookServlet?action=page&pageNo="+pageNo);
     }
 
 
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Book book = WebUtils.copyParamToBeam(req.getParameterMap(),new Book());
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 0);
         bookService.updateBook(book);
-        resp.sendRedirect(req.getContextPath()+"/manager/bookServlet?action=list");
+        resp.sendRedirect(req.getContextPath()+"/manager/bookServlet?action=page&pageNo="+pageNo);
     }
 
     protected void getBook(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

@@ -9,7 +9,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30004568-2f51-4bec-beba-87448860e2d1" name="Default Changelist" comment="book project fifth stage" />
+    <list default="true" id="30004568-2f51-4bec-beba-87448860e2d1" name="Default Changelist" comment="book project fifth stage">
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/pojo/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/ClientBookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/web/WEB-INF/lib/jsp-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/web/pages/client/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/web/pages/common/page_nav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课程内容/02-javascript/笔记/w3cschool菜鸟教程 新版本.chw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/book_lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/book_lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/test/BookDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/test/BookDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/test/BookServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/test/BookServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/web/BookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/BookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/manager_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/manager/book_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/dao/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/dao/impl/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/dao/impl/BookDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/test/BookDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/test/BookDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/test/BookServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/test/BookServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/web/BookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/web/BookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/manager_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/manager_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/atguigu/dao/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/dao/impl/BaseDao-DESKTOP-ITPHQA8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/dao/impl/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/atguigu/dao/impl/BookDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/dao/impl/UerDaoImpl-DESKTOP-ITPHQA8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/atguigu/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/atguigu/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/test/BookDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/atguigu/test/BookDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/test/BookServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/atguigu/test/BookServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/test/UserServiceTest-DESKTOP-ITPHQA8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/web/BookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/atguigu/web/BookServlet.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,10 +65,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -30,6 +77,11 @@
     <option name="BRANCH" value="gitee/master" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -56,6 +108,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -68,7 +121,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/book/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/book/web/pages/client" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -77,11 +130,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\11071\OneDrive\JavaWorkspace\JavaWeb\book\web\pages\client" />
       <recent name="D:\11071\OneDrive\JavaWorkspace\JavaWeb\book\web\WEB-INF\lib" />
       <recent name="C:\Users\Hao He\OneDrive\JavaWorkspace\JavaWeb\book\web\WEB-INF\lib" />
       <recent name="C:\Users\Hao He\OneDrive\JavaWorkspace\JavaWeb\book\src" />
       <recent name="C:\Users\Hao He\OneDrive\JavaWorkspace\JavaWeb\book\web" />
-      <recent name="C:\Users\Hao He\OneDrive\JavaWorkspace\JavaWeb\06_servlet\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\11071\OneDrive\JavaWorkspace\JavaWeb\06_servlet\web" />
@@ -108,7 +161,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceImplTest.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookDaoTest.queryPageItemsByPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -117,14 +170,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
-      <option name="METHOD_NAME" value="addBook" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookDaoTest" />
+      <option name="METHOD_NAME" value="queryPageItemsByPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceImplTest.deletBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookDaoTest.queryTotalItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -133,14 +186,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
-      <option name="METHOD_NAME" value="deletBookById" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookDaoTest" />
+      <option name="METHOD_NAME" value="queryTotalItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceImplTest.queryBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookDaoTest.queryTotalItemsByPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -149,14 +202,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
-      <option name="METHOD_NAME" value="queryBookById" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookDaoTest" />
+      <option name="METHOD_NAME" value="queryTotalItemsByPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceImplTest.queryBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceImplTest.page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -166,13 +219,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
-      <option name="METHOD_NAME" value="queryBooks" />
+      <option name="METHOD_NAME" value="page" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceImplTest.updateBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceImplTest.pageByPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -182,7 +235,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
-      <option name="METHOD_NAME" value="updateBook" />
+      <option name="METHOD_NAME" value="pageByPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -630,24 +683,24 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.BookDaoTest.queryTotalItems" />
+      <item itemvalue="JUnit.BookServiceImplTest.page" />
+      <item itemvalue="JUnit.BookDaoTest.queryTotalItemsByPrice" />
+      <item itemvalue="JUnit.BookDaoTest.queryPageItemsByPrice" />
       <item itemvalue="Tomcat Server.08_jsp" />
       <item itemvalue="Tomcat Server.book" />
       <item itemvalue="Tomcat Server.05_web" />
       <item itemvalue="Tomcat Server.06_servlet" />
       <item itemvalue="Tomcat Server.07_servlet" />
-      <item itemvalue="JUnit.BookServiceImplTest.addBook" />
-      <item itemvalue="JUnit.BookServiceImplTest.updateBook" />
-      <item itemvalue="JUnit.BookServiceImplTest.deletBookById" />
-      <item itemvalue="JUnit.BookServiceImplTest.queryBookById" />
-      <item itemvalue="JUnit.BookServiceImplTest.queryBooks" />
+      <item itemvalue="JUnit.BookServiceImplTest.pageByPrice" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookServiceImplTest.updateBook" />
-        <item itemvalue="JUnit.BookServiceImplTest.queryBooks" />
-        <item itemvalue="JUnit.BookServiceImplTest.queryBookById" />
-        <item itemvalue="JUnit.BookServiceImplTest.deletBookById" />
-        <item itemvalue="JUnit.BookServiceImplTest.addBook" />
+        <item itemvalue="JUnit.BookServiceImplTest.pageByPrice" />
+        <item itemvalue="JUnit.BookDaoTest.queryPageItemsByPrice" />
+        <item itemvalue="JUnit.BookDaoTest.queryTotalItemsByPrice" />
+        <item itemvalue="JUnit.BookServiceImplTest.page" />
+        <item itemvalue="JUnit.BookDaoTest.queryTotalItems" />
       </list>
     </recent_temporary>
   </component>
@@ -687,7 +740,12 @@
       <workItem from="1619766223297" duration="9061000" />
       <workItem from="1619869684360" duration="1581000" />
       <workItem from="1619920772134" duration="142000" />
-      <workItem from="1619921092585" duration="38189000" />
+      <workItem from="1619921092585" duration="38422000" />
+      <workItem from="1620006699152" duration="22713000" />
+      <workItem from="1620058482064" duration="125000" />
+      <workItem from="1620094268338" duration="11756000" />
+      <workItem from="1620106666624" duration="678000" />
+      <workItem from="1620107385222" duration="6595000" />
     </task>
     <task id="LOCAL-00001" summary="All Files is Ok">
       <created>1619769277335</created>
@@ -738,7 +796,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619972206726</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="book project fifth stage">
+      <created>1619972437468</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619972437468</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -769,6 +834,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
@@ -793,16 +859,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/book/src/com/atguigu/test/BookDaoTest.java</url>
-          <line>24</line>
+          <line>25</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/book/src/com/atguigu/test/BookServiceImplTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/book/src/com/atguigu/web/BookServlet.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="39" />
+          <line>46</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="bookService.page(1, Page.PAGE_SIZE)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

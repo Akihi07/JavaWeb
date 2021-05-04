@@ -11,6 +11,7 @@
       <root url="jar://$PROJECT_DIR$/book/web/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/book/web/WEB-INF/lib/commons-beanutils-1.8.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/book/web/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/book/web/WEB-INF/lib/jsp-api.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

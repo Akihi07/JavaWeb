@@ -16,7 +16,7 @@
                 + request.getServerPort()
                 + request.getContextPath()
                 +"/";
-        request.setAttribute("basePath",basePath);
+        pageContext.setAttribute("basePath",basePath);
 //        System.out.println(basePath);
     %>
 <%--    ${ requestScope.basePath }--%>
@@ -29,7 +29,7 @@
 
 
 <%--方式二--%>
-<base href=${ requestScope.basePath }>
+<base href=${ pageScope.basePath }>
 
 <link type="text/css" rel="stylesheet" href="static/css/style.css" >
 <script type="text/javascript" src="static/script/jquery-1.7.2.js"></script>

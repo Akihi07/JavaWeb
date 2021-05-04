@@ -6,6 +6,7 @@ import com.atguigu.pojo.Book;
 import org.junit.Test;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 public class BookDaoTest {
     BookDao bookDao = new BookDaoImpl();
@@ -34,6 +35,30 @@ public class BookDaoTest {
     public void queryBooks(){
         for (Book queryBook : bookDao.queryBooks()) {
             System.out.println(queryBook);
+        }
+    }
+
+    @Test
+    public void queryTotalItems() {
+        System.out.println(bookDao.queryTotalItems());
+    }
+
+    @Test
+    public void queryPageItems() {
+        for (Book book : bookDao.queryPageItems(0, 4)) {
+            System.out.println(book);
+        }
+    }
+
+    @Test
+    public void queryTotalItemsByPrice() {
+        System.out.println(bookDao.queryTotalItemsByPrice(10,50));
+    }
+
+    @Test
+    public void queryPageItemsByPrice() {
+        for (Book book : bookDao.queryPageItemsByPrice(0, 4,10,50)) {
+            System.out.println(book);
         }
     }
 

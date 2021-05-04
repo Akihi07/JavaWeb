@@ -41,15 +41,15 @@
 				<td colspan="2">操作</td>
 			</tr>
 
-			<c:forEach items="${requestScope.books}" var="book">
+			<c:forEach items="${requestScope.page.pageItems}" var="book">
 				<tr>
 					<td>${book.name}</td>
 					<td>${book.price}</td>
 					<td>${book.author}</td>
 					<td>${book.sales}</td>
 					<td>${book.store}</td>
-					<td><a href="manager/bookServlet?action=getBook&id=${book.id}&method=update">修改</a></td>
-					<td><a class="deleteClass" href="manager/bookServlet?action=delete&id=${book.id}">删除</a></td>
+					<td><a href="manager/bookServlet?action=getBook&id=${book.id}&pageNo=${requestScope.page.pageNo}">修改</a></td>
+					<td><a class="deleteClass" href="manager/bookServlet?action=delete&id=${book.id}&pageNo=${requestScope.page.pageNo}">删除</a></td>
 				</tr>
 			</c:forEach>
 
@@ -60,10 +60,14 @@
 				<td></td>
 				<td></td>
 				<td></td>
-				<td><a href="pages/manager/book_edit.jsp?method=add">添加图书</a></td>
+				<td><a href="pages/manager/book_edit.jsp?pageNo=${requestScope.page.pageTotal}">添加图书</a></td>
 			</tr>
 		</table>
 	</div>
+
+	<%--页码条开始--%>
+	<%@include file="/pages/common/page_nav.jsp"%>
+	<%--页码条结束--%>
 
 	<%@ include file="/pages/common/foot.jsp"%>
 </body>
