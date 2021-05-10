@@ -4,26 +4,29 @@ import java.math.BigDecimal;
 
 public class CartItem {
     private Integer id;
+    private String name;
     private Integer count;
     private BigDecimal price;
-    private BigDecimal totalPrice;
+    private BigDecimal totalItemPrice;
 
     public CartItem() {
     }
 
-    public CartItem(Integer id, Integer count, BigDecimal price, BigDecimal totalPrice) {
+    public CartItem(Integer id, String name, Integer count, BigDecimal price) {
         this.id = id;
+        this.name = name;
         this.count = count;
         this.price = price;
-        this.totalPrice = totalPrice;
+        this.totalItemPrice = price.multiply(BigDecimal.valueOf(count));
     }
 
     public Integer getId() {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+
+    public String getName() {
+        return name;
     }
 
     public Integer getCount() {
@@ -42,21 +45,24 @@ public class CartItem {
         this.price = price;
     }
 
-    public BigDecimal getTotalPrice() {
-        return totalPrice;
+    public BigDecimal getTotalItemPrice() {
+        updateTotalItemPrice();
+        return totalItemPrice;
     }
 
-    public void setTotalPrice(BigDecimal totalPrice) {
-        this.totalPrice = totalPrice;
+    public void updateTotalItemPrice() {
+        this.totalItemPrice = this.price.multiply(BigDecimal.valueOf(this.count));
     }
+
 
     @Override
     public String toString() {
         return "CartItem{" +
                 "id=" + id +
+                ", name='" + name + '\'' +
                 ", count=" + count +
                 ", price=" + price +
-                ", totalPrice=" + totalPrice +
+                ", totalItemPrice=" + totalItemPrice +
                 '}';
     }
 }

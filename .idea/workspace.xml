@@ -9,51 +9,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30004568-2f51-4bec-beba-87448860e2d1" name="Default Changelist" comment="Finish Page">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/13_cookie_session_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_cookie_session/13_cookie_session.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_cookie_session/src/com/atguigu/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_cookie_session/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_cookie_session/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/pojo/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/pojo/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/web/WEB-INF/lib/kaptcha-2.3.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/book_lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/book_lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2021_4_30_23_15_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2021_4_30_23_15__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="30004568-2f51-4bec-beba-87448860e2d1" name="Default Changelist" comment="Cart Doing">
+      <change afterPath="$PROJECT_DIR$/05_web/src/Main.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/test/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/CartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/web/ClientBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/ClientBookServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/web/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/pojo/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/pojo/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/pojo/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/pojo/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/com/atguigu/utils/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/com/atguigu/utils/WebUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/cart/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/cart/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/cart/checkout.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/web/pages/client/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/client/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/web/pages/common/login_sucess_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/login_sucess_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/web/pages/common/page_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/common/page_nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/web/pages/order/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/order/order.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book/web/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/web/ClientBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/web/ClientBookServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/web/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/utils/WebUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/classes/com/atguigu/utils/WebUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/cart/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/cart/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/cart/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/cart/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/cart/checkout.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/client/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/client/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/login_sucess_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/login_sucess_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/page_nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/common/page_nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/book_manager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/manager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/manager/order_manager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/order/order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/login_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/order/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/order/order.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/book_war_exploded/pages/user/regist_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/web/ClientBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/atguigu/web/ClientBookServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/atguigu/web/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课程内容/03-jQuery/代码/03_jQuery/Demo/Demo02.选择器/09.元素筛选方法__.html" beforeDir="false" afterPath="$PROJECT_DIR$/课程内容/03-jQuery/代码/03_jQuery/Demo/Demo02.选择器/09.元素筛选方法__.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课程内容/03-jQuery/笔记/Demo/Demo02.选择器/09.元素筛选方法__.html" beforeDir="false" afterPath="$PROJECT_DIR$/课程内容/03-jQuery/笔记/Demo/Demo02.选择器/09.元素筛选方法__.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课程内容/04-jQuery/代码/04_jQuery/Demo/Demo02.选择器/09.元素筛选方法__.html" beforeDir="false" afterPath="$PROJECT_DIR$/课程内容/04-jQuery/代码/04_jQuery/Demo/Demo02.选择器/09.元素筛选方法__.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课程内容/05-XML &amp; Tomcat/笔记/dom4j-1.6.1/xml/much_ado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/课程内容/05-XML &amp; Tomcat/笔记/dom4j-1.6.1/xml/much_ado.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/book/com/atguigu/utils/WebUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/book/com/atguigu/utils/WebUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课程内容/14-项目第六、七阶段/代码/book/web/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/课程内容/14-项目第六、七阶段/代码/book/web/pages/cart/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课程内容/15-Filter过滤器/代码/book/web/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/课程内容/15-Filter过滤器/代码/book/web/pages/cart/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课程内容/16-JSON和Ajax请求/代码/book/web/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/课程内容/16-JSON和Ajax请求/代码/book/web/pages/cart/cart.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +48,9 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="JavaScript File" />
         <option value="Jsp File" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -116,10 +99,10 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -156,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceImplTest.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartTest.clearCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -165,14 +148,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
-      <option name="METHOD_NAME" value="addBook" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.CartTest" />
+      <option name="METHOD_NAME" value="clearCart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceImplTest.deletBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartTest.deleteItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -181,14 +164,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
-      <option name="METHOD_NAME" value="deletBookById" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.CartTest" />
+      <option name="METHOD_NAME" value="deleteItem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceImplTest.queryBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartTest.getTotalCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -197,14 +180,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
-      <option name="METHOD_NAME" value="queryBookById" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.CartTest" />
+      <option name="METHOD_NAME" value="getTotalCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceImplTest.queryBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartTest.getTotalPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -213,14 +196,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
-      <option name="METHOD_NAME" value="queryBooks" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.CartTest" />
+      <option name="METHOD_NAME" value="getTotalPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceImplTest.updateBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartTest.updateCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -229,8 +212,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.BookServiceImplTest" />
-      <option name="METHOD_NAME" value="updateBook" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.CartTest" />
+      <option name="METHOD_NAME" value="updateCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -768,25 +751,25 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BookServiceImplTest.addBook" />
-      <item itemvalue="JUnit.BookServiceImplTest.updateBook" />
-      <item itemvalue="JUnit.BookServiceImplTest.deletBookById" />
-      <item itemvalue="JUnit.BookServiceImplTest.queryBookById" />
-      <item itemvalue="JUnit.BookServiceImplTest.queryBooks" />
       <item itemvalue="Tomcat Server.13_cookie_session" />
       <item itemvalue="Tomcat Server.08_jsp" />
       <item itemvalue="Tomcat Server.book" />
       <item itemvalue="Tomcat Server.05_web" />
       <item itemvalue="Tomcat Server.06_servlet" />
       <item itemvalue="Tomcat Server.07_servlet" />
+      <item itemvalue="JUnit.CartTest.deleteItem" />
+      <item itemvalue="JUnit.CartTest.clearCart" />
+      <item itemvalue="JUnit.CartTest.updateCount" />
+      <item itemvalue="JUnit.CartTest.getTotalCount" />
+      <item itemvalue="JUnit.CartTest.getTotalPrice" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookServiceImplTest.updateBook" />
-        <item itemvalue="JUnit.BookServiceImplTest.queryBooks" />
-        <item itemvalue="JUnit.BookServiceImplTest.queryBookById" />
-        <item itemvalue="JUnit.BookServiceImplTest.deletBookById" />
-        <item itemvalue="JUnit.BookServiceImplTest.addBook" />
+        <item itemvalue="JUnit.CartTest.getTotalPrice" />
+        <item itemvalue="JUnit.CartTest.getTotalCount" />
+        <item itemvalue="JUnit.CartTest.updateCount" />
+        <item itemvalue="JUnit.CartTest.clearCart" />
+        <item itemvalue="JUnit.CartTest.deleteItem" />
       </list>
     </recent_temporary>
   </component>
@@ -833,7 +816,7 @@
       <workItem from="1620439249448" duration="8444000" />
       <workItem from="1620557312940" duration="122000" />
       <workItem from="1620609103086" duration="1371000" />
-      <workItem from="1620610685565" duration="4713000" />
+      <workItem from="1620610685565" duration="23868000" />
     </task>
     <task id="LOCAL-00001" summary="All Files is Ok">
       <created>1619769277335</created>
@@ -884,7 +867,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619972206726</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Cart Doing">
+      <created>1620626679930</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620626679930</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Cart Doing">
+      <created>1620626709649</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620626709649</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -922,7 +919,8 @@
     <MESSAGE value="Change all Files to JSP" />
     <MESSAGE value="book project" />
     <MESSAGE value="book project fifth stage" />
-    <option name="LAST_COMMIT_MESSAGE" value="book project fifth stage" />
+    <MESSAGE value="Cart Doing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cart Doing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

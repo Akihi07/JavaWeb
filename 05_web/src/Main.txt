@@ -1,0 +1,33 @@
+public class Main {
+    public static void main(String[] args) {
+        "INTERVIEW_DATE":1619074161000 ,
+        "WORK_PLACE_NAME":"中国/深圳",
+        "A001":"1",
+        "WORK_PLACE":"Shenzhen",
+        "A003":"1",
+        "RESUME_TYPE":"0",
+        "JOB_REQUIREMENT_ID":179840,
+        "INTEXSIST":0,
+        "CHECK_IN_COUNT":2,
+        "portalStatus7":"wanchengpaixu",
+        "portalStatus":"wanchengpaixu",
+        "INTERVIEW_TYPE":0,
+        "graduateItem":"3",
+        "A0012":"1",
+        "IV_DATE":"2021-04-27",
+        "A0011":"1",
+        "INTERVIEWEE_ID":955026,
+        "IV_EXISTS":"1",
+        "CURRENT_DEPT":"047285/网络产品与解决方案/Network+Products+&+Solutions",
+        "index":2,
+        "IV_PROCESS":1,
+        "SHOW_INTERVIEW":"0",
+        "JOB_CODE":"J202103160117",
+        "CREATION_DATE":1619074158000,
+        "JOB_NAME":"助理工程师A,工程师B",
+        "TNEXT":"0",
+        "EXTERNAL_JOB_NAME":"软件开发工程师（实习生）",
+        "SHOW_PROCESS":"0",
+        "JOB_TYPE":"0"};
+    }
+}

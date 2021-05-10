@@ -14,7 +14,7 @@
 			$(function () {
 				//给验证码的图片绑定单击事件
 				$("#code").click(function () {
-					this.src = "${pageContext.basePath}kaptcha.jpg?date="+ new Date();
+					this.src = "${pageScope.basePath}kaptcha.jpg?date="+ new Date();
 				});
 
 				// 给注册绑定单击事件

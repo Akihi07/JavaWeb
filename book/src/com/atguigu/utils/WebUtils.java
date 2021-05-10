@@ -24,7 +24,7 @@ public class WebUtils {
         try {
             return Integer.parseInt(str);
         } catch (Exception e) {
-            e.printStackTrace();
+            //e.printStackTrace();
         }
         return defaultInt;
     }

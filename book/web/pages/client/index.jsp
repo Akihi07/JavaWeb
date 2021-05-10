@@ -8,6 +8,18 @@
 
 	<%--静态包含 head的内容--%>
 	<%@ include file="/pages/common/head.jsp"%>
+	<script type="text/javascript">
+		$(function () {
+			$("button.addToCart").click(function () {
+				/**
+				 * 在事件响应的function函数 中，有一个this对象，这个this对象，是当前正在响应事件的dom对象
+				 * @type {*|jQuery}
+				 */
+				var id = $(this).attr("bookId");
+				location.href = "${pageScope.basePath}cartServlet?action=addItem&id="+id;
+			});
+		});
+	</script>
 
 
 
@@ -27,7 +39,7 @@
 
 				<c:if test="${not empty sessionScope.user}">
 					<span>欢迎<span class="um_span">${sessionScope.user.username}</span>光临尚硅谷书城</span>
-					<a href="order/order.jsp">我的订单</a>
+					<a href="pages/order/order.jsp">我的订单</a>
 					<a href="userServlet?action=logout">注销</a>&nbsp;&nbsp;
 				</c:if>
 
@@ -52,7 +64,9 @@
 			<div style="text-align: center">
 				<span>您的购物车中有3件商品</span>
 				<div>
-					您刚刚将<span style="color: red">时间简史</span>加入到了购物车中
+					<c:if test="${ not empty sessionScope.lastBook}">
+						您刚刚将<span style="color: red">${sessionScope.lastBook}</span>加入到了购物车中
+					</c:if>
 				</div>
 			</div>
 			<c:forEach items="${requestScope.page.pageItems}" var="book">
@@ -81,8 +95,8 @@
 							<span class="sp1">库存:</span>
 							<span class="sp2">${book.store}</span>
 						</div>
-						<div class="book_add">
-							<button>加入购物车</button>
+						<div class="book_add" >
+							<button bookID = "${book.id}" class="addToCart">加入购物车</button>
 						</div>
 					</div>
 				</div>
