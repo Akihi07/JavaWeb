@@ -12,6 +12,7 @@
       <root url="jar://$PROJECT_DIR$/book/web/WEB-INF/lib/commons-beanutils-1.8.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/book/web/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/book/web/WEB-INF/lib/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/book/web/WEB-INF/lib/kaptcha-2.3.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

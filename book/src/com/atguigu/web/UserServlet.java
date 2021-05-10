@@ -16,6 +16,8 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.Map;
 
+import static com.google.code.kaptcha.Constants.KAPTCHA_SESSION_KEY;
+
 public class UserServlet extends BaseServlet {
 
     /**
@@ -28,30 +30,33 @@ public class UserServlet extends BaseServlet {
         UserService userService = new UserServiceImpl();
 
         /*1.获取请求参数*/
-
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         String email = req.getParameter("email");
+        // 获取 输入验证码
         String code = req.getParameter("code");
 
-        //properties过多，每次创建新的实例对象的时候需要进行大量赋值
-        //采用BeanUtils注入参数
+        // 获取 kaptcha 生成的 验证码(session 域中)
+        String token = (String) req.getSession().getAttribute(KAPTCHA_SESSION_KEY);
 
+
+        //properties过多，每次创建新的实例对象的时候需要进行大量赋值
+        //采用 BeanUtils 注入参数
         /*
         for (Map.Entry<String,String[]> entry:req.getParameterMap().entrySet()) {
             System.out.println(entry.getKey() + "=" + Arrays.asList(entry.getValue()));
         }
         */
-        User user = (User) WebUtils.copyParamToBeam(req.getParameterMap(),new User());
 
+        User user = (User) WebUtils.copyParamToBeam(req.getParameterMap(),new User());
 
         req.setAttribute("username",username);
         req.setAttribute("password",password);
         req.setAttribute("email",email);
         req.setAttribute("code",code);
 
-        /*2.检查验证码是否正确 当前写死要求 要求验证码为abcde*/
-        if("abcde".equalsIgnoreCase(code)){
+        /*2.检查验证码是否正确 */
+        if(token.equalsIgnoreCase(code)){
 
             /*检查用户名是否可用*/
             if(userService.existsUserName(username))
@@ -79,7 +84,7 @@ public class UserServlet extends BaseServlet {
 
             req.setAttribute("msg","验证码错误");
 
-            System.out.println("验证码["+ code + "]错误" );
+            System.out.println("输入验证码["+ code + "]错误"+"实际[" + token + "]" );
             req.getRequestDispatcher("/pages/user/regist.jsp").forward(req,resp);
 
         }
@@ -99,8 +104,10 @@ public class UserServlet extends BaseServlet {
         String password = req.getParameter("password");
 
         /*判断数据库中是否包含该用户*/
-        if(userService.login(new User(null,username,password,null)) != null) {
-            /*查询到了数据 说明数据库中找到了对应的数据 登录成功*/
+        User user = userService.login(new User(null, username, password, null));
+        if(user != null) {
+            /*查询到了数据 说明数据库中找到了对应的数据 登录成功 并将查询到的用户信息保存到 Session 域中*/
+            req.getSession().setAttribute("user",user);
             req.getRequestDispatcher("/pages/user/login_success.jsp").forward(req,resp);
         }
         else
@@ -117,5 +124,20 @@ public class UserServlet extends BaseServlet {
             req.getRequestDispatcher("/pages/user/login.jsp").forward(req,resp);
 
         }
+    }
+
+
+    /**
+     * 用户注销
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
+    protected void logout(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //销毁 session
+        req.getSession().invalidate();
+        //重定向到首页
+        resp.sendRedirect(req.getContextPath());
     }
 }
